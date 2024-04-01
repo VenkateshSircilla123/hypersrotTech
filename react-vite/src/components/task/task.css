@@ -1,0 +1,41 @@
+.cardBody {
+  display: flex;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.priority {
+  background-color: blue;
+  padding: 5px;
+  color: aliceblue;
+}
+.desc {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: justify;
+}
+.options {
+  position: absolute;
+  width: max-content;
+  /* display: flex; */
+  gap: 1px;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  right: 250;
+  /* top: -100px; */
+  padding: 0 30px;
+  background-color: antiquewhite;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+.p-tb {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.options p {
+  font-size: medium;
+  height: auto;
+}

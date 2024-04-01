@@ -1,0 +1,27 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  border-radius: 25px;
+  background-color: white;
+  height: 500px;
+  margin-bottom: 20px;
+}
+::-webkit-scrollbar {
+  width: 0.1em;
+}
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+.status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  border-radius: 25px 25px 0 0;
+  color: white;
+}
+.allTasks {
+  overflow-y: scroll;
+}

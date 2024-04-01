@@ -1,0 +1,18 @@
+.editContainer {
+  width: max-content;
+  padding: 10px 30px;
+  justify-content: space-between;
+  height: max-content;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+.inp {
+  border: none;
+  padding: 5px;
+  background-color: rgba(117, 109, 109, 0.459);
+  width: 100%;
+}
